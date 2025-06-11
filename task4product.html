@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Product Listing</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="todo.html">To-Do App</a>
+    </nav>
+  </header>
+
+  <main>
+    <label>Filter by Category:</label>
+    <select id="categoryFilter">
+      <option value="all">All</option>
+      <option value="electronics">Electronics</option>
+      <option value="clothing">Clothing</option>
+    </select>
+
+    <label>Sort:</label>
+    <select id="sort">
+      <option value="default">Default</option>
+      <option value="price">Price</option>
+      <option value="rating">Rating</option>
+    </select>
+
+    <ul id="productList"></ul>
+  </main>
+
+  <script src="products.js"></script>
+</body>
+</html>
